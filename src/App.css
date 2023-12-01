@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+.main-heading{
+  padding: 1rem 2rem;
+}
+ul{
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+}
+ul li{
+  list-style-type: none;
+  padding: 2rem;
+  width: 20rem;
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px black;
+}
+ul li p{
+  margin: 0.4rem 0rem;
+}
+
+.loading-tag,.error-tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.error-tag{
+  color: red;
+}
